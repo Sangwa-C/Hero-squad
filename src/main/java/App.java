@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
+import models.Hero;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 
@@ -8,7 +9,7 @@ import static spark.Spark.*;
 
 public class App {
     public static void main(String[] args) {
-        staticFileLocation("/public");
+//        staticFileLocation("/public");
 
         get("/", (request, response) -> { //request for route happens at this location
             Map<String, Object> model = new HashMap<String, Object>(); // new model is made to store information
@@ -16,13 +17,14 @@ public class App {
         }, new HandlebarsTemplateEngine()); //
 
         //post: process new post form
-//        post("/adding", (request, response) -> { //URL to make new post on POST route
-//            Map<String, Object> model = new HashMap<>();
-//            String content = request.queryParams("content");
-//            Hero newHero = new Hero(content);
-//            model.put("name", newHero);
-//            return new ModelAndView(model, "addhero.hbs");
-//        }, new HandlebarsTemplateEngine());
+        get("/hero", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            String recipient = request.queryParams("name");
+//            String sender = request.queryParams("sender");
+            model.put("name", recipient);
+//            model.put("sender", sender);
+            return new ModelAndView(model, "hero.hbs");
+        }, new HandlebarsTemplateEngine());
 
         //get: show all posts
 //        get("/", (req, res) -> {
