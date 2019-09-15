@@ -19,11 +19,16 @@ public class App {
         //post: process new post form
         get("/hero", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            String recipient = request.queryParams("name");
+            String name = request.queryParams("name");
 //            String sender = request.queryParams("sender");
-            model.put("name", recipient);
+            model.put("name", name);
 //            model.put("sender", sender);
             return new ModelAndView(model, "hero.hbs");
+        }, new HandlebarsTemplateEngine());
+
+        get("/form", (request, response) ->{
+             Map<String, Object> model = new HashMap<String, Object>();
+             return new ModelAndView(model,  "form.hbs");
         }, new HandlebarsTemplateEngine());
 
         //get: show all posts
