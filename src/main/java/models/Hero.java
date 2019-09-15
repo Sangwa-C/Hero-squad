@@ -3,22 +3,53 @@ import java.util.ArrayList;
 
 public class Hero {
     private String name;
-    private String age;
+    private int age;
     private String power;
     private String weakness;
+    private static ArrayList<Hero> instances = new ArrayList<>();
+    private int id;
 
-    public Hero (String content) {
+
+    public Hero(String name, int age, String power, String weakness) {
         this.name = name;
         this.age = age;
         this.power = power;
         this.weakness = weakness;
+        instances.add(this);
+        this.id = instances.size();
 
-//: At the very least, they should have a name, age, special power and weakness
     }
 
-    public String getname(){
+    public static int findById(int idOfPostToFind) {
+        return idOfPostToFind;
+    }
+
+    public String getName(){
         return name;
     }
 
+    public int getAge(){
+        return age;
+    }
+
+    public String getPower() {
+        return power;
+    }
+
+    public String getWeakness() {
+        return weakness;
+    }
+
+    public static ArrayList<Hero> getAll(){
+        return instances;
+    }
+
+    public int getId (){
+        return id;
+    }
+
+    public static Hero FindById(int id){
+        return instances.get(id-1);
+    }
 }
 
