@@ -38,7 +38,7 @@ public class App {
             modelf.put("power", newHero.getPower());
             modelf.put("weakness", newHero.getWeakness());
             System.out.println(name);
-            return new ModelAndView(modelf, "form.hbs");
+            return new ModelAndView(modelf, "hero.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/posts/new", (req, res) -> {
