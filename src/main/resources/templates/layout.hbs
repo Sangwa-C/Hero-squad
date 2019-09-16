@@ -5,8 +5,51 @@
     <title>{{#block "title"}}Hero Squad{{/block}}</title>
 
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+
+    <style>
+        body {
+        background-image:url("https://wallpaperplay.com/walls/full/4/a/b/137804.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        color:white;
+    }
+
+    .well{
+        margin-top:100px;
+        opacity:0.8;
+        color:black;
+        border-radius:50px;
+        text-align:center;
+    }
+    img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    }
+
+    .form-control{
+    width:25em;
+    }
+    .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+    </style>
+
 </head>
 <body>
+
+<!--    <style>-->
+<!--        background-image:url("https://i.imgur.com/1mLzjRb.jpg")-->
+<!--    </style>-->
+
+
 <ul class="nav nav-tabs">
     <li role="presentation" class="active"><a href="#">HOME</a></li>
     <li role="presentation"><a href="/posts/new">CREATE HERO </a></li>
@@ -16,7 +59,7 @@
     <!--begin main template-->
     <div class="page-header">
 <!--        <img src="/images/caspar-rubin-224229.jpg" width="70%">-->
-        <h1>Welcome to Hero Squad. <small>A journey into code!</small></h1>
+        <h1>Welcome to Hero Squad. </h1>
 
     </div>
 
@@ -26,8 +69,18 @@
 
     </div>
 </div>
-<!--end main template-->
+
+<div class="footer">
+    <p>Hero Squad © 2019</p>
+</div>
+
+
+    <!--end main template-->
 {{#block "footer"}}
+
+
+
+
     </body>
     </html>
 {{/block}}
