@@ -67,9 +67,9 @@ This is an app that helps the user to create create a hero and allows you to rec
      
  **Here are some screenshots from the project**
  ![Home-page](src/home.png)
- ![Hero-form](src/hero form.png)
- ![Hero-answer](src/heroooo.png)
- ![Squad-answer](src/squad-form.png)  
+ ![Hero-form](src/hero%20form.png)
+ ![Hero-answer](src/hero answer.png)
+ ![Squad-answer](src/squad form.png)  
  ![Squad-answer](src/squad answer.png)
 ## Known Bugs
 
