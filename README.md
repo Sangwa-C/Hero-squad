@@ -66,10 +66,11 @@ This is an app that helps the user to create create a hero and allows you to rec
                       "Squad's Size: 5"
      
  **Here are some screenshots from the project**
- ![App.java](src/app.png)
- ![CaesarCipher.java](src/cae.png)
- ![Decrption.java](src/dec.png)
-    
+ ![Home-page](src/home.png)
+ ![Hero-form.java](src/hero form.png)
+ ![Hero-answer.java](src/heroooo.png)
+ ![Squad-answer.java](src/squad-form.png)  
+ ![Her-answer.java](src/squad answer.png)
 ## Known Bugs
 
 This webpage is not suitable for all screen sizes.
