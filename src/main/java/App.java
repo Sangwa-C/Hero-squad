@@ -18,9 +18,9 @@ public class App {
             Map<String, Object> model = new HashMap<>();
             ArrayList<Hero> posts = Hero.getAll();
             model.put("posts", posts);
-
             return new ModelAndView(model, "form.hbs");
         }, new HandlebarsTemplateEngine());
+
 
         //route that makes new post
         post("/posts/new", (request, response) -> {

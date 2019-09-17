@@ -67,13 +67,14 @@ This is an app that helps the user to create create a hero and allows you to rec
      
  **Here are some screenshots from the project**
  ![Home-page](src/home.png)
- ![Hero-form.java](src/hero form.png)
- ![Hero-answer.java](src/heroooo.png)
- ![Squad-answer.java](src/squad-form.png)  
- ![Her-answer.java](src/squad answer.png)
+ ![Hero-form](src/hero form.png)
+ ![Hero-answer](src/heroooo.png)
+ ![Squad-answer](src/squad-form.png)  
+ ![Squad-answer](src/squad answer.png)
 ## Known Bugs
 
-This webpage is not suitable for all screen sizes.
+This webpage is not suitable for all screen sizes and it might load slowly if your internet is low.
+
 
 ## Technologies Used
 
