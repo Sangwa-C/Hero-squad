@@ -11,9 +11,8 @@ This is an app that helps the user to create create a hero and allows you to rec
   1. Ensure you have Java installed 
      (A simple way to install Java is using sdkman.)
      
-          sdk install java
-
-          
+        sdk install java
+  
   2.Gradle
     Gradle is used as the build tool and can be installed with sdkman:
   
@@ -22,21 +21,21 @@ This is an app that helps the user to create create a hero and allows you to rec
 ## Installation guide   
 {follow the below instructions for set up.}
     
-    1. You will need Internet connection.
+   1. You will need Internet connection.
 
-    2. You need to get into the Hero-Squad Repository.
+   2. You need to get into the Hero-Squad Repository.
     
-        Link:-> https://github.com/Sangwa-C/Hero-squad.git
+     Link:-> https://github.com/Sangwa-C/Hero-squad.git
         
-    3. From there you can access the Hero-Squad.
+   3. From there you can access the Hero-Squad.
     
-    4. Clone the project.
+   4. Clone the project.
     
-    5. get into project folder (cd into project).
+   5. get into project folder (cd into project).
 
-    6. If you have all the Pre-requisites you can run the application.
+   6. If you have all the Pre-requisites you can run the application.
     
-          gradle run
+     gradle run
 
 ## BDD
 
