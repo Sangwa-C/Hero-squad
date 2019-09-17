@@ -11,12 +11,12 @@ This is an app that helps the user to create create a hero and allows you to rec
   1. Ensure you have Java installed 
      (A simple way to install Java is using sdkman.)
      
-        sdk install java
+    sdk install java
   
   2.Gradle
     Gradle is used as the build tool and can be installed with sdkman:
   
-      sdk install gradle
+    sdk install gradle
       
 ## Installation guide   
 {follow the below instructions for set up.}
@@ -87,4 +87,4 @@ This webpage is not suitable for all screen sizes.
 If you any issues or have questions, ideas or concerns contact us on chelseasabinesangwa@gmail.com.
 
 ### License
-MIT Copyright (c) 2019 Sangwa Sabine Chelsea. #Ceasar_Cliper 
+MIT Copyright (c) 2019 Sangwa Sabine Chelsea. #Hero_Squad 
