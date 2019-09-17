@@ -19,7 +19,7 @@ This is an app that helps the user to create create a hero and allows you to rec
     sdk install gradle
       
 ## Installation guide   
-{follow the below instructions for set up.}
+**{follow the below instructions for set up.}**
     
    1. You will need Internet connection.
 
@@ -39,7 +39,7 @@ This is an app that helps the user to create create a hero and allows you to rec
 
 ## BDD
 
-**The program should allow the user to creat a Hero.**
+**The program should allow the user to create a Hero.**
 
     Input Example: "Hero's Name: Hulk"
                    "Hero's Age: 154"
